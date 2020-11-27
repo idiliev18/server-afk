@@ -16,5 +16,6 @@ namespace server_afk
         {
             InitializeComponent();
         }
+
     }
 }
