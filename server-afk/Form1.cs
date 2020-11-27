@@ -27,14 +27,14 @@ namespace server_afk
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            for(int i = 0; i<20; i++)
+            for(int i = 0; i < 100; i++)
             {
-                SendKeys.Send("{W}");
+                SendKeys.Send("{w}");
             }
 
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < 100; i++)
             {
-                SendKeys.Send("{S}");
+                SendKeys.Send("{s}");
             }
         }
 
